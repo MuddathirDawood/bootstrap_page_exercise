@@ -25,3 +25,11 @@
     object-fit: cover ;
     object-position: 1px 0px;
       }
+
+@media (max-width: 426px){
+                    img{
+                            height: 150px !important;
+                            width: 150px !important;                        
+                    }
+
+                        }      
