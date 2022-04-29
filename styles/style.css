@@ -1,0 +1,27 @@
+#testemonials{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(https://picsum.photos/1920/1200);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.circle{
+    width: 10px !important;
+    height: 10px !important;
+    aspect-ratio: 1 !important;
+    border-radius: 50% !important;
+}
+
+.image{
+    width: 25%;
+    aspect-ratio: 1;
+    object-fit: cover ;
+    object-position: 1px 0px;
+      }
